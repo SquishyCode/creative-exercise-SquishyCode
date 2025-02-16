@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Exercise</title>
+
+    <style>
+        body {
+            align-items: center;
+            justify-content: center;
+        }
+        canvas {
+            border: 2px solid black;
+            display: block;
+        }
+
+        #toggleButton {
+            cursor: pointer;
+            color: white;
+            background-color: #4CAF50;
+        }
+        #toggleButton:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>The Bouncing SVGs</h1>
+    <canvas id="svgCanvas" width="600" height="600"></canvas>
+
+    <br>
+    <button id="toggleButton">Start/Stop Animation</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
